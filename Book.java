@@ -11,7 +11,7 @@ class Book
     // The fields.
     private String author;
     private String title;
-
+   
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -22,5 +22,18 @@ class Book
         title = bookTitle;
     }
 
-    // Add the methods here ...
+    
+    /**
+     * Method to print the author and title of book
+     * 
+     */
+    public void printAuthor()
+    {
+        System.out.print(author);
+    }
+    
+    public void printTitle()
+    {
+        System.out.print(title);
+    }
 }

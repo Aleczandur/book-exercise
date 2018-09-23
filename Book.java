@@ -43,4 +43,11 @@ class Book
     {
         return numPages;
     }
+    
+    public void printDetails()
+    {
+        System.out.print("The title of the book is: " +title);
+        System.out.println("The author of the book is: " + author);
+        System.out.println("The number of pages is: " +numPages);
+    }
 }

@@ -13,4 +13,6 @@ comment4.params=
 comment4.target=int\ getnumPages()
 comment5.params=
 comment5.target=void\ printDetails()
-numComments=6
+comment6.params=r
+comment6.target=void\ setReference(java.lang.String)
+numComments=7

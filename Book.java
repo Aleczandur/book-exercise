@@ -12,7 +12,7 @@ class Book
     private String author;
     private String title;
     private int numPages;
-   
+    private String reference = "";
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -22,6 +22,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         numPages = booknumPages;
+        
     }
 
     
@@ -49,5 +50,10 @@ class Book
         System.out.print("The title of the book is: " +title);
         System.out.println("The author of the book is: " + author);
         System.out.println("The number of pages is: " +numPages);
+    }
+    
+    public void setReference(String r)
+    {
+        reference = r;
     }
 }

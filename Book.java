@@ -50,10 +50,17 @@ class Book
         System.out.print("The title of the book is: " +title);
         System.out.println("The author of the book is: " + author);
         System.out.println("The number of pages is: " +numPages);
+        System.out.println("Currently on page: " +reference);
     }
     
     public void setReference(String r)
     {
         reference = r;
+        
+        if(r.length() > 0)
+        System.out.print(r);
+        
+        else
+        System.out.print("zzz");
     }
 }

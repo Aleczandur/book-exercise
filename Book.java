@@ -61,6 +61,6 @@ class Book
         System.out.print(r);
         
         else
-        System.out.print("zzz");
+        System.out.print("error");
     }
 }
